@@ -11,6 +11,9 @@ public class MyEncryptDecrypt {
 
 
 public static String encrypt(String Data,String Key) throws Exception {
+	
+	
+	System.out.print("first cahnge");
 	String ALGO = "AES";
 	if(Key.length()<16)
 	{
